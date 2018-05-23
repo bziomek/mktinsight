@@ -1,0 +1,20 @@
+Package: mktinsight
+Type: Package
+Title: Tool for Contextual Analysis of Email Subjects
+Version: 0.2.0
+Author: Ben Ziomek 
+Maintainer: Ben Ziomek <bziomek@chicagobooth.edu>
+URL: https://github.com/bziomek/mktinsight
+BugReports: https://github.com/bziomek/mktinsight/issues
+Description: Leverages spacy and quanteda to analyze sent email data.
+    Distinguishes between senior and junior contacts by job title,
+    and produces a table of words and sentence structures that 
+    correlated with successful email opens, along with the odds ratio
+    that an email is opened given it contains the stated structure.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    quanteda,
+    spacyr
+RoxygenNote: 6.0.1
