@@ -14,7 +14,8 @@ Description: Leverages spacy and quanteda to analyze sent email data.
 License: file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports:
+Depends:
     quanteda,
-    spacyr
+    spacyr,
+    data.table
 RoxygenNote: 6.0.1
