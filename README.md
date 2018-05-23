@@ -6,19 +6,25 @@ This package is a R tool for the contextual analysis of sentences in email subje
 
 1. Installing Python dependencies
 
-Install python. Then install spacy for your platform, as documented on [https://spacy.io/usage/](its website).
+Install python. Then install spacy for your platform, as documented on [its website](https://spacy.io/usage/).
 
 2. Install `mktinsight`
 
 Run the command:
-```
+```R
+install.packages("devtools")
 devtools::install_github("bziomek/mktinsight")
 ```
 
 3. If the above command throws dependency errors, install dependencies manually
-```
+```R
 install.packages("quanteda")
 install.packages("spacyr")
+```
+And re-run the installation command:
+```
+remove.packages("mktinsights")
+devtools::install_github("bziomek/mktinsight")
 ```
 
 ## Usage
