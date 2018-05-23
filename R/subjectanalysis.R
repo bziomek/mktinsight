@@ -2,6 +2,10 @@
 
 .mail.subjinsight <- function(input.subjects, input.read, min_mails = 2, outputrows = NULL) {
 
+  # Initialize Spacyr
+  message("Initializing Dependency Parser ... ", appendLF = FALSE)
+  spacy_initialize()
+  
   # first load and clean the data
 
   mail_temp <- NULL
