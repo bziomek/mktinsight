@@ -15,7 +15,7 @@
 
   # parse email subject text using spacy
 
-  mail_parse <- spacy_parse(as.character(mail_temp$subject),dependency = TRUE, lemma = FALSE, pos = FALSE)
+  mail_parse <- spacy_parse(as.character(input.subjects),dependency = TRUE, lemma = FALSE, pos = FALSE)
 
   # Remove spaces and punctuation
 
