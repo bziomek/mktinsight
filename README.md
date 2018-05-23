@@ -11,21 +11,19 @@ This package is a R tool for the contextual analysis of sentences in email subje
 2. Install `mktinsight`:
 
      Run the command:
-```R
+```
 install.packages("devtools")
 devtools::install_github("bziomek/mktinsight")
 ```
      You should be done!
 
 3. If the above command throws dependency errors, install dependencies manually:
-```R
+```
 install.packages("quanteda")
 install.packages("spacyr")
 ```
-
      And re-run the installation command:
-     
-```R
+```
 remove.packages("mktinsights")
 devtools::install_github("bziomek/mktinsight")
 ```
