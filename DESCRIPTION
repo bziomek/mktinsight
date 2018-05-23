@@ -16,6 +16,5 @@ Encoding: UTF-8
 LazyData: true
 Depends:
     quanteda,
-    spacyr,
-    data.table
+    spacyr
 RoxygenNote: 6.0.1
