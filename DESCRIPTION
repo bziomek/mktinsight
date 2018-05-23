@@ -1,7 +1,7 @@
 Package: mktinsight
 Type: Package
 Title: Tool for Contextual Analysis of Email Subjects
-Version: 0.2.0
+Version: 0.2.1
 Author: Ben Ziomek 
 Maintainer: Ben Ziomek <bziomek@chicagobooth.edu>
 URL: https://github.com/bziomek/mktinsight
