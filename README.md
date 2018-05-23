@@ -13,17 +13,19 @@ This package is a R tool for the contextual analysis of sentences in email subje
      Run the command:
 ```
 install.packages("devtools")
+devtools::install_github("quanteda/spacyr")
 devtools::install_github("bziomek/mktinsight")
 ```
 
 3. If the above command throws dependency errors, install dependencies manually:
 ```
 install.packages("quanteda")
-install.packages("spacyr")
 ```
 4. Then re-run the installation command, if needed:
 ```
 remove.packages("mktinsights")
+remove.packages("spacyr")
+devtools::install_github("quanteda/spacyr")
 devtools::install_github("bziomek/mktinsight")
 ```
 
